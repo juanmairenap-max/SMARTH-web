@@ -1,0 +1,450 @@
+smart-by-mairena-consulting
+
+index.html
+about.html
+services.html
+projects.html
+contact.html
+styles.css
+script.js
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="SMART by Mairena Consulting - Firma especializada en desarrollo sostenible, innovación estratégica y fortalecimiento institucional.">
+<meta name="keywords" content="consultoría, desarrollo sostenible, innovación, planificación estratégica, educación">
+<meta name="author" content="SMART by Mairena Consulting">
+<title>SMART by Mairena Consulting | Desarrollo e Innovación</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<nav>
+    <div class="container nav-container">
+        <div class="brand">SMART</div>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">Nosotros</a></li>
+            <li><a href="services.html">Servicios</a></li>
+            <li><a href="projects.html">Proyectos</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+        </ul>
+    </div>
+</nav>
+
+<header class="hero">
+    <div class="container">
+        <h1>Knowledge. Strategy. Impact.</h1>
+        <p>Consultoría estratégica para el desarrollo sostenible y la innovación institucional.</p>
+        <a href="contact.html" class="btn-primary">Solicitar Información</a>
+    </div>
+</header>
+
+<section class="highlights">
+    <div class="container grid-3">
+        <div>
+            <h3>Rigor Técnico</h3>
+            <p>Metodologías basadas en evidencia y estándares internacionales.</p>
+        </div>
+        <div>
+            <h3>Innovación Aplicada</h3>
+            <p>Soluciones estratégicas orientadas a resultados medibles.</p>
+        </div>
+        <div>
+            <h3>Impacto Territorial</h3>
+            <p>Transformación sostenible en organizaciones y territorios.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 SMART by Mairena Consulting</p>
+</footer>
+
+</body>
+</html>
+:root {
+    --azul: #1F2E5A;
+    --teal: #1FA7A0;
+    --naranja: #F26A21;
+    --dorado: #D4A017;
+    --blanco: #ffffff;
+    --gris: #f4f4f4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 85%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+nav {
+    background: var(--azul);
+    padding: 15px 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: var(--blanco);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.hero {
+    background: linear-gradient(rgba(31,46,90,0.9), rgba(31,46,90,0.9));
+    color: var(--blanco);
+    text-align: center;
+    padding: 120px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background: var(--naranja);
+    color: var(--blanco);
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: var(--dorado);
+}
+
+.highlights {
+    padding: 80px 0;
+    background: var(--gris);
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+    text-align: center;
+}
+
+footer {
+    background: #111;
+    color: var(--blanco);
+    text-align: center;
+    padding: 20px;
+}
+about.html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Perfil institucional de SMART by Mairena Consulting. Firma especializada en desarrollo sostenible e innovación estratégica en América Latina.">
+<title>About | SMART by Mairena Consulting</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<nav>
+    <div class="container nav-container">
+        <div class="brand">SMART</div>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">Nosotros</a></li>
+            <li><a href="services.html">Servicios</a></li>
+            <li><a href="projects.html">Proyectos</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+        </ul>
+    </div>
+</nav>
+
+<section class="page-header">
+    <div class="container">
+        <h1>About Us</h1>
+        <p>Strategic consulting for sustainable development and institutional transformation.</p>
+    </div>
+</section>
+
+<section class="about-content">
+    <div class="container">
+
+        <h2>Who We Are</h2>
+        <p>
+            SMART by Mairena Consulting is a specialized consulting firm focused on 
+            sustainable development, institutional strengthening and strategic innovation. 
+            We operate through a flexible and multidisciplinary network of experts, 
+            allowing us to tailor high-level technical solutions for complex challenges.
+        </p>
+
+        <h2>Our Approach</h2>
+        <p>
+            Our methodology integrates evidence-based analysis, participatory processes 
+            and strategic planning tools aligned with international standards. 
+            We prioritize measurable impact, operational feasibility and long-term sustainability.
+        </p>
+
+        <h2>Our Expertise</h2>
+
+        <ul class="expertise-list">
+            <li>Strategic Planning and Institutional Reform</li>
+            <li>Territorial Development and Governance</li>
+            <li>Education Systems and Innovation Models</li>
+            <li>Project Design and Monitoring & Evaluation (M&E)</li>
+            <li>Capacity Building and Policy Advisory</li>
+        </ul>
+
+        <h2>Consulting Model</h2>
+        <p>
+            SMART operates under a lead consultant structure supported by a network of 
+            specialized professionals. This model ensures agility, cost-efficiency and 
+            the capacity to scale according to project requirements.
+        </p>
+
+        <h2>Geographic Focus</h2>
+        <p>
+            We work primarily in Latin America, with the capability to collaborate 
+            in international assignments requiring regional expertise.
+        </p>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 SMART by Mairena Consulting</p>
+</footer>
+
+</body>
+</html>
+.page-header {
+    background: var(--azul);
+    color: var(--blanco);
+    padding: 100px 0;
+    text-align: center;
+}
+
+.about-content {
+    padding: 80px 0;
+}
+
+.about-content h2 {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    color: var(--azul);
+}
+
+.expertise-list {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.expertise-list li {
+    margin-bottom: 10px;
+}
+projects.html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Experience | SMART by Mairena Consulting</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<nav>
+    <div class="container nav-container">
+        <div class="brand">SMART</div>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">Nosotros</a></li>
+            <li><a href="services.html">Servicios</a></li>
+            <li><a href="projects.html">Experiencia</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+        </ul>
+    </div>
+</nav>
+
+<section class="page-header">
+    <div class="container">
+        <h1>Professional Experience</h1>
+        <p>Selected consulting assignments and strategic interventions.</p>
+    </div>
+</section>
+
+<section class="projects">
+    <div class="container">
+
+        <div class="project-card">
+            <h3>Institutional Strengthening Program</h3>
+            <p><strong>Role:</strong> Lead Consultant</p>
+            <p><strong>Scope:</strong> Strategic planning and governance model redesign.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Territorial Development Strategy</h3>
+            <p><strong>Role:</strong> Senior Advisor</p>
+            <p><strong>Scope:</strong> Participatory planning and capacity building.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Education Innovation Framework</h3>
+            <p><strong>Role:</strong> Project Coordinator</p>
+            <p><strong>Scope:</strong> Curriculum modernization and evaluation systems.</p>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 SMART by Mairena Consulting</p>
+</footer>
+
+</body>
+</html>
+<h2>Lead Consultant</h2>
+<p>
+Juan de Dios Mairena Pérez serves as Lead Consultant, providing strategic direction,
+technical oversight and institutional representation. His experience integrates
+public policy, education systems and territorial development.
+</p>
+
+<h2>Associated Experts Network</h2>
+<p>
+SMART collaborates with a flexible network of multidisciplinary professionals
+including economists, education specialists, governance experts and
+monitoring & evaluation consultants. Teams are assembled according to
+project requirements.
+</p>
+<div style="margin-top:40px;">
+    <a href="assets/SMART_Portfolio.pdf" class="btn-primary" download>
+        Download Company Profile
+    </a>
+</div>
+assets/SMART_Portfolio.pdf
+contact.html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | SMART by Mairena Consulting</title>
+<link rel="stylesheet" href="styles.css">
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+(function(){
+emailjs.init("YOUR_PUBLIC_KEY");
+})();
+</script>
+</head>
+
+<body>
+
+<nav>
+    <div class="container nav-container">
+        <div class="brand">SMART</div>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">Nosotros</a></li>
+            <li><a href="services.html">Servicios</a></li>
+            <li><a href="projects.html">Experiencia</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+        </ul>
+    </div>
+</nav>
+
+<section class="page-header">
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p>For consulting inquiries and strategic partnerships.</p>
+    </div>
+</section>
+
+<section class="contact-form">
+    <div class="container">
+
+        <form id="contact-form">
+            <input type="text" name="from_name" placeholder="Full Name" required>
+            <input type="email" name="from_email" placeholder="Email Address" required>
+            <textarea name="message" placeholder="Project Description" required></textarea>
+            <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+
+    </div>
+</section>
+
+<script>
+document.getElementById('contact-form')
+.addEventListener('submit', function(event) {
+event.preventDefault();
+
+emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this)
+.then(function() {
+alert('Message Sent Successfully');
+}, function(error) {
+alert('Error sending message');
+});
+});
+</script>
+
+<footer>
+    <p>© 2026 SMART by Mairena Consulting</p>
+</footer>
+
+</body>
+</html>
+.projects {
+    padding: 80px 0;
+}
+
+.project-card {
+    background: var(--gris);
+    padding: 30px;
+    margin-bottom: 30px;
+    border-left: 5px solid var(--teal);
+}
+
+.contact-form {
+    padding: 80px 0;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input, textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
